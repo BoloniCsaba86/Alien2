@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alien1</title>
+    <title>Alien2</title>
     <style>
         body {
             background-color: darkgoldenrod;
@@ -11,22 +11,18 @@
         #aliens {
             background-color: white;
             border: 1px solid black;
-            width: 300px;
+            width: 200px;
             margin: 0px auto;
             padding: 10px;
         }
     </style>
-    <script>
-        function onHover(id, newId) {
-            document.getElementById("kep" + id).setAttribute("src", `alien${newId}.png`)
-        }
-    </script>
 </head>
 <body>
     <div id="aliens">
-        <img id="kep1" onmouseleave="onHover(1, 1)" onmouseover="onHover(1, 2)" src="alien1.png">
-        <img id="kep2" onmouseleave="onHover(2, 2)" onmouseover="onHover(2, 3)" src="alien2.png">
-        <img id="kep3" onmouseleave="onHover(3, 3)" onmouseover="onHover(3, 4)" src="alien3.png">
+        <img src="alien1.png">
+        <img src="alien2.png">
+        <img src="alien3.png">
+        <img src="alien4.png">
     </div>
 </body>
 </html>
